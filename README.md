@@ -95,7 +95,7 @@ Because the project uses modern, pure browser-native standards (HTML5, CSS3, ES6
 
 1.  **Clone or Download the Repository:**
     ```bash
-    git clone https://github.com/prateekvijay265/She-Can-Foundation.git
+    git clone https://github.com/keshavmandaar/She-Can-Foundation.git
     cd She-Can-Foundation
     ```
 2.  **Launch Directly:**
