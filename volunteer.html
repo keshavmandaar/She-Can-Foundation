@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Volunteer with She Can Foundation. On-ground, teaching, digital — every hand counts." />
+  <title>Volunteer | She Can Foundation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    details summary { list-style: none; }
+    details summary::-webkit-details-marker { display: none; }
+    details summary { 
+      padding: 22px 28px; 
+      font-weight: 600; 
+      font-size: 0.95rem;
+      cursor: pointer; 
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center;
+      color: var(--ink);
+    }
+    details > p { padding: 0 28px 22px; color: var(--muted); font-size: 0.92rem; line-height: 1.75; }
+    details[open] summary { color: var(--clay); }
+    .faq-arrow { transition: transform 0.3s var(--ease); color: var(--clay); font-size: 1.2rem; }
+  </style>
+</head>
+<body>
+<div class="page-wrap">
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="page-hero-bg" style="background-image:url('img_community.jpg');background-position:center 60%;"></div>
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><span>Volunteer</span></div>
+      <h1 class="t-xl" data-anim="up" style="color:var(--cream);margin-top:12px;">Lend a <em class="italic" style="color:var(--clay-light);">Hand.</em></h1>
+      <p class="body-xl" data-anim="up" data-delay="2" style="color:rgba(250,247,242,0.5);max-width:480px;margin-top:16px;">You don't need experience. You just need to show up.</p>
+    </div>
+  </div>
+
+  <!-- ROLES -->
+  <section class="s bg-cream">
+    <div class="wrap">
+      <div class="tc" style="margin-bottom:56px;">
+        <span class="eyebrow" data-anim="up">Volunteer Roles</span>
+        <h2 class="t-lg" data-anim="up" data-delay="1">How you <em class="clay italic">help.</em></h2>
+      </div>
+      <div class="vol-grid">
+        <div class="vol-card" data-anim="up" data-delay="1">
+          <div class="vol-icon">🤲</div>
+          <h3 class="t-xs" style="margin-bottom:12px;">On-Ground Volunteer</h3>
+          <p class="body-md">Join our food distribution, community surveys, and relief drives. Be the hands and feet of the Foundation on weekends.</p>
+        </div>
+        <div class="vol-card highlight" data-anim="up" data-delay="2">
+          <div class="vol-badge">Highest Need</div>
+          <div class="vol-icon">📚</div>
+          <h3 class="t-xs" style="margin-bottom:12px;">Mentor / Teacher</h3>
+          <p class="body-md">Spend 2 hours a week teaching street children or mentoring women in SkillUp. Your time transforms lives.</p>
+        </div>
+        <div class="vol-card" data-anim="up" data-delay="3">
+          <div class="vol-icon">📢</div>
+          <h3 class="t-xs" style="margin-bottom:12px;">Spread Awareness</h3>
+          <p class="body-md">Help us grow digitally — design posts, run campaigns, organize fundraisers in your college or office.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL QUOTE -->
+  <div class="quote-block">
+    <p class="quote-text" data-anim="up">"Volunteering here didn't just help the kids — it completely changed how I see the world. The best decision I ever made."</p>
+    <p class="quote-attr" data-anim="up" data-delay="2">— Rahul Verma, Volunteer since 2021</p>
+  </div>
+
+  <!-- APPLICATION FORM -->
+  <section class="s bg-sand" id="apply">
+    <div class="wrap">
+      <div style="display:grid;grid-template-columns:1fr 1.2fr;gap:80px;align-items:start;" class="form-layout">
+        <div>
+          <span class="eyebrow" data-anim="up">Apply Now</span>
+          <h2 class="t-lg" data-anim="up" data-delay="1" style="margin-bottom:20px;">We're waiting <em class="clay italic">for you.</em></h2>
+          <p class="body-xl" data-anim="up" data-delay="2" style="margin-bottom:32px;">Fill out the form. Our volunteer coordinator will reach out within 48 hours.</p>
+          <div style="display:flex;flex-direction:column;gap:20px;margin-top:8px;" data-anim="up" data-delay="3">
+            <div style="display:flex;gap:16px;align-items:center;">
+              <div class="btn-icon-circle" style="pointer-events:none;">📋</div>
+              <div><strong style="font-size:0.9rem;display:block;margin-bottom:2px;">Simple Process</strong><span class="body-sm">Fill form → We call you → You join a drive</span></div>
+            </div>
+            <div style="display:flex;gap:16px;align-items:center;">
+              <div class="btn-icon-circle" style="pointer-events:none;">🎓</div>
+              <div><strong style="font-size:0.9rem;display:block;margin-bottom:2px;">Free Training</strong><span class="body-sm">We train you fully before your first session</span></div>
+            </div>
+            <div style="display:flex;gap:16px;align-items:center;">
+              <div class="btn-icon-circle" style="pointer-events:none;">🔐</div>
+              <div><strong style="font-size:0.9rem;display:block;margin-bottom:2px;">Safe & Supportive</strong><span class="body-sm">Full team support on every field visit</span></div>
+            </div>
+          </div>
+        </div>
+        <div data-anim="right" data-delay="2">
+          <div style="background:#fff;border-radius:var(--r-lg);padding:40px;box-shadow:var(--sh-lg);">
+            <form id="joinForm">
+              <div class="form-field">
+                <label class="form-label" for="jName">Full Name</label>
+                <input type="text" id="jName" class="form-control" data-v="name" placeholder="e.g. Aditi Sharma" required />
+              </div>
+              <div class="form-row">
+                <div class="form-field">
+                  <label class="form-label" for="jEmail">Email</label>
+                  <input type="email" id="jEmail" class="form-control" data-v="email" placeholder="your@email.com" required />
+                </div>
+                <div class="form-field">
+                  <label class="form-label" for="jPhone">Phone</label>
+                  <input type="tel" id="jPhone" class="form-control" placeholder="10-digit number" />
+                </div>
+              </div>
+              <div class="form-field">
+                <label class="form-label" for="jRole">I want to help with…</label>
+                <select id="jRole" class="form-control">
+                  <option>Teaching / Mentoring</option>
+                  <option>On-Ground Distribution</option>
+                  <option>Digital &amp; Social Media</option>
+                  <option>Fundraising</option>
+                  <option>Wherever I'm needed most</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label class="form-label" for="jMsg">Message (Optional)</label>
+                <textarea id="jMsg" class="form-control" placeholder="Tell us a little about yourself and your motivation…"></textarea>
+              </div>
+              <button type="submit" class="btn btn-clay" style="width:100%;justify-content:center;padding:17px;font-size:1rem;">
+                Submit Application
+                <span class="btn-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+              </button>
+            </form>
+            <div id="joinSuccess" style="display:none;text-align:center;padding:40px 0;">
+              <div style="font-size:3.5rem;margin-bottom:16px;">✨</div>
+              <h3 class="t-sm" style="margin-bottom:10px;">Application Received!</h3>
+              <p class="body-md">Thank you for stepping up. We'll be in touch within 48 hours.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <style>@media(max-width:860px){.form-layout{grid-template-columns:1fr !important;}}</style>
+  </section>
+
+  <!-- FAQ -->
+  <section class="s bg-cream">
+    <div class="wrap-sm">
+      <div class="tc" style="margin-bottom:52px;">
+        <span class="eyebrow" data-anim="up">Before You Apply</span>
+        <h2 class="t-lg" data-anim="up" data-delay="1">Common <em class="clay italic">questions.</em></h2>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px;" data-anim="up" data-delay="2">
+        <details style="background:var(--sand);border-radius:var(--r-sm);overflow:hidden;">
+          <summary>What is the time commitment? <span class="faq-arrow">+</span></summary>
+          <p>It depends on the role. Mentors usually commit 2 hours a week. On-ground drives happen on weekends, typically 3–4 hours. We respect your schedule.</p>
+        </details>
+        <details style="background:var(--sand);border-radius:var(--r-sm);overflow:hidden;">
+          <summary>Where are your chapters located? <span class="faq-arrow">+</span></summary>
+          <p>We have active chapters in Delhi, Jaipur, Lucknow, and Kochi. Digital volunteers can contribute from anywhere in India or abroad.</p>
+        </details>
+        <details style="background:var(--sand);border-radius:var(--r-sm);overflow:hidden;">
+          <summary>Do I need teaching experience? <span class="faq-arrow">+</span></summary>
+          <p>Not at all. We provide training and session outlines. Your patience and consistency matter far more than formal qualifications.</p>
+        </details>
+        <details style="background:var(--sand);border-radius:var(--r-sm);overflow:hidden;">
+          <summary>Do you partner with corporates for CSR? <span class="faq-arrow">+</span></summary>
+          <p>Yes, we run employee engagement drives and CSR partnerships. Email partnerships@shecanfoundation.org to get started.</p>
+        </details>
+        <details style="background:var(--sand);border-radius:var(--r-sm);overflow:hidden;">
+          <summary>Is volunteering safe for women? <span class="faq-arrow">+</span></summary>
+          <p>Absolutely. All field visits are conducted in groups with senior volunteers present. We never send anyone alone and all locations are vetted.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

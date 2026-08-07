@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Donate to She Can Foundation. 80G tax exemption. 100% to field. ₹80 keeps a girl in school." />
+  <title>Donate | She Can Foundation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="page-wrap">
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="page-hero-bg" style="background-image:url('img_child_food.jpg');background-position:center 15%;"></div>
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><span>Donate</span></div>
+      <h1 class="t-xl" data-anim="up" style="color:var(--cream);margin-top:12px;">Make a <em class="italic" style="color:var(--clay-light);">Difference.</em></h1>
+      <p class="body-xl" data-anim="up" data-delay="2" style="color:rgba(250,247,242,0.5);max-width:500px;margin-top:16px;">No fancy offices. No overhead. 100% of your contribution goes directly to the ground.</p>
+    </div>
+  </div>
+
+  <!-- DONATE MAIN SECTION -->
+  <section class="s bg-cream" style="padding-top:72px;padding-bottom:72px;">
+    <div class="wrap">
+      <div class="donate-wrapper">
+
+        <!-- LEFT INFO -->
+        <div>
+          <span class="eyebrow" data-anim="up">Your Impact</span>
+          <h2 class="t-lg" data-anim="up" data-delay="1" style="margin-bottom:24px;">₹80 gives a girl <em class="clay italic">one month of dignity.</em></h2>
+          <p class="body-xl" data-anim="up" data-delay="2" style="margin-bottom:40px;">We believe in radical transparency. Your donation translates directly into real, tangible help for someone who needs it today.</p>
+
+          <div class="donate-tiers" data-anim="up" data-delay="3">
+            <div class="donate-tier">
+              <div class="tier-amount">₹80</div>
+              <div><p class="tier-label">Period Kit for a Month</p><p class="tier-desc">Sustainable sanitary supplies for a girl for an entire month, keeping her in school.</p></div>
+            </div>
+            <div class="donate-tier">
+              <div class="tier-amount">₹500</div>
+              <div><p class="tier-label">Stationery Kit</p><p class="tier-desc">A complete set of notebooks, pens, and supplies for a street child in EduShe.</p></div>
+            </div>
+            <div class="donate-tier">
+              <div class="tier-amount">₹2,000</div>
+              <div><p class="tier-label">School Fees (1 Month)</p><p class="tier-desc">Sponsors a child's formal school fees, uniform, and books for one month.</p></div>
+            </div>
+            <div class="donate-tier">
+              <div class="tier-amount">₹10,000</div>
+              <div><p class="tier-label">Sewing Machine</p><p class="tier-desc">Provides a SkillUp She graduate with a sewing machine to build her livelihood.</p></div>
+            </div>
+          </div>
+
+          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:36px;" data-anim="up" data-delay="4">
+            <div style="display:flex;align-items:center;gap:8px;font-size:0.82rem;color:var(--muted);">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--clay)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              80G Tax Exemption
+            </div>
+            <div style="display:flex;align-items:center;gap:8px;font-size:0.82rem;color:var(--muted);">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--clay)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              NGO Darpan Certified
+            </div>
+            <div style="display:flex;align-items:center;gap:8px;font-size:0.82rem;color:var(--muted);">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--clay)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              100% Goes to Field
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT DONATE CARD -->
+        <div data-anim="scale" data-delay="2">
+          <div class="donate-card-wrap">
+            <h3 class="t-sm" style="color:var(--cream);margin-bottom:6px;">Choose Your Impact</h3>
+            <p style="color:rgba(250,247,242,0.35);font-size:0.8rem;margin-bottom:28px;">Every rupee goes directly to the field.</p>
+
+            <div class="amount-grid">
+              <button class="amount-btn active" data-v="80">₹80</button>
+              <button class="amount-btn" data-v="500">₹500</button>
+              <button class="amount-btn" data-v="1000">₹1,000</button>
+              <button class="amount-btn" data-v="2000">₹2,000</button>
+              <button class="amount-btn" data-v="5000">₹5,000</button>
+              <button class="amount-btn" data-v="custom">Custom</button>
+            </div>
+
+            <div class="custom-input-wrap" id="customAmtWrap">
+              <input type="number" class="form-control form-control-dark" placeholder="Enter amount in ₹" min="1" style="margin-bottom:0;" />
+            </div>
+
+            <form id="donateForm" style="margin-top:16px;">
+              <div class="form-field" style="margin-bottom:14px;">
+                <input type="text" id="dName" class="form-control form-control-dark" data-v="name" placeholder="Full Name (for receipt)" required />
+              </div>
+              <div class="form-field" style="margin-bottom:20px;">
+                <input type="email" id="dEmail" class="form-control form-control-dark" data-v="email" placeholder="Email Address" required />
+              </div>
+              <button type="submit" class="btn btn-clay" style="width:100%;justify-content:center;padding:17px;font-size:1rem;">
+                Proceed to Payment
+                <span class="btn-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+              </button>
+              <p style="text-align:center;font-size:0.72rem;color:rgba(250,247,242,0.2);margin-top:16px;">🔒 Secure · UPI · Cards · Netbanking</p>
+            </form>
+
+            <div id="donateSuccess" style="display:none;text-align:center;padding:32px 0;">
+              <div style="font-size:3rem;margin-bottom:16px;">🙏</div>
+              <h3 class="t-sm" style="color:var(--cream);margin-bottom:10px;">Thank You!</h3>
+              <p style="color:rgba(250,247,242,0.5);font-size:0.9rem;">Redirecting to secure payment gateway…</p>
+            </div>
+
+            <div class="trust-badges">
+              <span class="trust-badge">✓ 80G Exempt</span>
+              <span class="trust-badge">✓ NGO Darpan</span>
+              <span class="trust-badge">✓ 100% to Field</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTO STRIP -->
+  <section style="height:300px;overflow:hidden;position:relative;">
+    <img src="img_shelter.jpg" alt="She Can shelter outreach"
+      style="width:100%;height:100%;object-fit:cover;object-position:center 30%;" />
+    <div style="position:absolute;inset:0;background:rgba(20,14,8,0.55);display:flex;align-items:center;justify-content:center;">
+      <p style="font-family:var(--serif);font-style:italic;font-size:clamp(1.4rem,3vw,2.3rem);color:rgba(250,247,242,0.88);text-align:center;max-width:680px;padding:0 5%;" data-anim="up">
+        "The most political thing you can do is feed someone, teach someone, and listen to them."
+      </p>
+    </div>
+  </section>
+
+  <!-- ALTERNATE WAYS -->
+  <section class="s bg-sand tc">
+    <div class="wrap-sm">
+      <span class="eyebrow" data-anim="up">Other Ways to Help</span>
+      <h2 class="t-lg" data-anim="up" data-delay="1" style="margin-bottom:20px;">Time is also <em class="clay italic">a gift.</em></h2>
+      <p class="body-xl" data-anim="up" data-delay="2" style="margin-bottom:40px;">Can't donate right now? Your skills and voice matter just as much.</p>
+      <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;" data-anim="up" data-delay="3">
+        <a href="volunteer.html" class="btn btn-bark">Volunteer Your Time</a>
+        <a href="campaign.html" class="btn btn-outline">Share the Campaign</a>
+      </div>
+    </div>
+  </section>
+
+</div>
+<script src="script.js"></script>
+<script>
+  // Wire amount buttons to custom input
+  document.querySelectorAll('.amount-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.amount-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const wrap = document.getElementById('customAmtWrap');
+      if (wrap) wrap.classList.toggle('show', btn.dataset.v === 'custom');
+    });
+  });
+</script>
+</body>
+</html>
